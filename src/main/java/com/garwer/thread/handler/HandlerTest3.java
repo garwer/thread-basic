@@ -17,6 +17,7 @@ import java.util.concurrent.*;
  * 限定限定队列容量为5
  * DiscardOldestPolicy:丢弃队列最后面 跟DiscardPolicy相反 当有任务添加到线程池被拒绝时 线程池会丢弃阻塞队列中末尾的任务
  * 然后将被拒绝的任务添加到末尾
+ * 丢弃即将执行的一个任务
  */
 
 @Slf4j

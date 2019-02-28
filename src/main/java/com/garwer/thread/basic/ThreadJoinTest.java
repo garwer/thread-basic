@@ -8,6 +8,8 @@ import lombok.extern.slf4j.Slf4j;
  * @Version 1.0
  * 这边主线程看到了t1.join 必须等t1执行完后才能继续执行主线程 去执行后续t2内容
  * 即等t1完成后
+ * 为什么要用join
+ *
  */
 
 @Slf4j
